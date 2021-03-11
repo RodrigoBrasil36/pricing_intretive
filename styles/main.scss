@@ -1,0 +1,38 @@
+$soft_Cyan: hsl(174, 77%, 80%);
+$Strong_Cyan: hsl(174, 86%, 45%);
+$Light_Grayish: hsl(14, 92%, 95%);
+$Light_: hsl(15, 100%, 70%);
+$Pale: hsl(226, 100%, 87%);
+
+$White: hsl(0, 0%, 100%);
+$Very_Pale: hsl(230, 100%, 99%);
+$Light_Grayish_Blue: hsl(224, 65%, 95%);
+$Light_Grayish_Blue: hsl(223, 50%, 87%);
+$Grayish_Blue: hsl(225, 20%, 60%);
+$Dark_Desaturated_Blue: hsl(227, 35%, 25%);
+
+@import 'header';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(../images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-color: $Very_Pale;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        height: 397px;
+        width: 539px;
+
+        background-color: $White;
+        border-radius: 10px;
+    }
+}
+

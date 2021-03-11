@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 250px;
+
+
+    img{
+        position: absolute;
+        z-index: -1;
+    }
+    h1{
+        color: $Dark_Desaturated_Blue;
+    }
+    span{
+        margin-top: 17px;
+        color: $Grayish_Blue;
+    }
+}
