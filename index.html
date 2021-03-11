@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simple, traffic-based pricing</h1>
+    <img src="./images/pattern-circles.svg" alt="circle_icon">
+    <span>Sign-up for our 30-day trial. No credit card required. 
+    </span>
+  </header>
+  <main>
+    <div class="container">
+      <div class="top">
+        <div class="infoprice">
+          <div class="social">
+            <p>Pageviews</p>
+          </div>
+          <div class="preco">
+            <h2 class="real">$16.00</h2>
+            <p>/month</p>
+          </div>
+        </div>
+        <div class="linha">
+          <div class="ativa"><img src="./images/icon-slider.svg" alt="slider_icon"></div>
+        </div>
+        <div class="planos">
+          <div class="mes">
+            <h6>Monthly Billing</h6>
+            <div class="switch__container">
+              <input id="switch-flat" class="switch switch--flat" type="checkbox">
+              <label for="switch-flat"></label>
+            </div>
+          </div>
+          <div class="ano">
+            <h6>Yearly Billing</h6>
+            <span>25% discount</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="botoom">
+        <div class="complemento">
+          <div class="cheked">
+            <img src="./images/icon-check.svg" alt="checked_icon">
+            <span>Unlimited websites</span>
+          </div>
+          <div class="cheked">
+            <img src="./images/icon-check.svg" alt="checked_icon">
+            <span>100% data ownership</span>
+          </div>
+          <div class="cheked">
+            <img src="./images/icon-check.svg" alt="checked_icon">
+            <span>Email reports</span>
+          </div>
+        </div>
+        <div class="botao">
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="Rodrigo.B">Your Name Here</a>.
+    </div>
+  </footer>
+</body>
+</html>
