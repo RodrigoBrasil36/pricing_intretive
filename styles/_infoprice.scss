@@ -1,0 +1,21 @@
+.infoprice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+
+    .preco{
+        display: flex;
+        align-items: center;
+
+        h2{
+            color: $Dark_Desaturated_Blue;
+            font-size: 37px;
+
+            font-weight: 800;
+        }
+        p{
+            margin-left: 10px;
+        }
+    }
+}
