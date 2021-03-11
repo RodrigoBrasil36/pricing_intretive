@@ -1,0 +1,33 @@
+.planos{
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    .mes{
+        display: flex;
+        span{
+            margin-right: 17px;
+        }
+    }
+    .ano{
+        display: flex;
+        margin-left: 15px;
+
+        h6{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+            color: $Light_red;
+            background: $Light_Grayish_red;
+           
+            height: 20px;
+            width: 80px;
+            border-radius: 1.5rem;
+
+            margin-left:10px;
+        }
+    }
+}

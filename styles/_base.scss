@@ -1,0 +1,48 @@
+$soft_Cyan: hsl(174, 77%, 80%);
+$Strong_Cyan: hsl(174, 86%, 45%);
+$Light_Grayish_red: hsl(14, 92%, 95%);
+$Light_red: hsl(15, 100%, 70%);
+$Pale: hsl(226, 100%, 87%);
+
+$White: hsl(0, 0%, 100%);
+$Very_Pale: hsl(230, 100%, 99%);
+$Light_Grayish: hsl(224, 65%, 95%);
+$Light_Grayish_Blue: hsl(223, 50%, 87%);
+$Grayish_Blue: hsl(225, 20%, 60%);
+$Dark_Desaturated_Blue: hsl(227, 35%, 25%);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(../images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-color: $Very_Pale;
+    font-family: 'Manrope', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        height: 397px;
+        width: 539px;
+
+        
+
+        background-color: $White;
+        border-radius: 10px;
+        color: $Grayish_Blue;
+        box-shadow: 0px 10px 20px 3px rgba( #000000, 0.1);
+
+        .top{
+            height: 262px;
+            border-bottom: 1px $Light_Grayish solid ;
+            padding: 0 44px;
+            
+        }
+    }
+}

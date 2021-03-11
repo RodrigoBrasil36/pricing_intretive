@@ -1,0 +1,27 @@
+.linha{
+    height: 8px;
+    width: 100%;
+
+    background-color: $Light_Grayish;
+    border-radius: 1rem;
+
+    display: flex;
+    
+
+    .ativa{
+        display: flex;
+        align-items: center;
+        background: $soft_Cyan;
+        height: 8px;
+        border-radius: 1rem;
+        width: 50%;
+        img{
+            position: absolute;
+            right: 47%;
+            background: $Strong_Cyan;
+            border-radius: 99999rem;
+            padding: 15px 11px;
+            box-shadow: 0 15px 20px 7px $soft_Cyan;
+        }
+    }
+}
